@@ -79,7 +79,7 @@ h3.triangolo{
 }
 
 .triangolo::before{
-    content: '\25BE';
+    content: '\23F7';
 }
 .spunta-verde{
     color: #70747b;
@@ -98,11 +98,39 @@ h3.triangolo{
     height: 40px;
     display: inline-block;
     padding: 0.5% 1% 1% 1%;
-    border-radius: 25px;
-    
-    
-    
-    
-    
+    border-radius: 25px; 
 }
+
+section img{
+    vertical-align: middle;
+}
+
+.text{
+    color: #70747b;
+    font-size: 200%;
+    line-height: 220%;
+    padding-left: 1%;
+
+}
+
+#purple{
+    background-color: purple;
+}
+
+#green{
+    background-color: green;
+}
+
+#orange{
+    background-color: orange;
+}
+
+#pink{
+    background-color: pink;
+}
+
+#pea-green{
+    background-color: greenyellow;
+}
+
 
