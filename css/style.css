@@ -62,3 +62,47 @@ nav{
     font-size: 130%;
     border-color: #dee1e4;
 }
+
+main{
+    padding: 4% 0 0 6%;
+}
+
+.prova{
+    
+}
+
+h3.triangolo{
+    font-size: 240%;
+    color: #70747b;
+    padding-bottom: 1%;
+
+}
+
+.triangolo::before{
+    content: '\25BE';
+}
+.spunta-verde{
+    color: #70747b;
+    font-size: 200%;
+    line-height: 220%;
+}
+
+.spunta-verde::before{
+    content: '\2705';
+}
+
+.riquadro{
+    background-color: #47adf1;
+    color: white;
+    font-size: 120%;
+    height: 40px;
+    display: inline-block;
+    padding: 0.5% 1% 1% 1%;
+    border-radius: 25px;
+    
+    
+    
+    
+    
+}
+
