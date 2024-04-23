@@ -2,4 +2,35 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: #5fc1f2;
+}
+
+header{
+    background-color: white;
+    height: 130px;
+    
+}
+
+header>img{
+    padding: 1% 0 0 2% ;
+    height: 85%;
+}
+
+header > h1{
+    display: inline-block;
+    transform: translate( 0%, -30%);
+    font-size: 80px;
+
+}
+
+.conteiner{
+    width: 80%;
+    margin: 80px auto;
+    background-color: white;
+    height: 1000px;
+
 }
