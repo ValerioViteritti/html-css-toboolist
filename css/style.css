@@ -1,96 +1,72 @@
+/* Regole Generali */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 body{
-    background-color: #5fc1f2;
+    background-color: #f6f8f9;
 }
-
+/* Regole dell'header */
 header{
     background-color: white;
     height: 130px;
-    
 }
-
 header>img{
     padding: 1% 0 0 2% ;
     height: 85%;
 }
-
 header > h1{
     display: inline-block;
     transform: translate( 0%, -30%);
     font-size: 500%;
-
 }
-
+/* Regole del Contenitore Principale */
 .conteiner{
     width: 70%;
     margin: 80px auto;
     background-color: white;
-    height: 1025px;
-
+    height: 1100px;
 }
-
+/* Regole dei pulsanti del nav */
 nav{
-    height: 8%;
-    border-bottom: 3px solid #5fc1f2;
+    height: 9%;
+    border-bottom: 3px solid #f6f8f9;
 }
-
 .pulsante-blu{
     background-color: #47adf1;
     color: white;
-    height: 60%;
+    height: 50%;
     width: 9%;
     border-radius: 13%;
     margin: 1.5% 0 0 6%;
     font-size: 130%;
     border-color: #47adf1;
-
 }
-
 .pulsante-chiaro{
     background-color: white;
     color: #dee1e4;
-    height: 60%;
+    height: 50%;
     width: 11%;
     border-radius: 13%;
     margin: 1.5% 0 0 0.3%;
     font-size: 130%;
     border-color: #dee1e4;
 }
-
+/* Regole del main  */
 main{
-    padding: 4% 0 0 6%;
+    padding: 2% 0 0 6%;
 }
-
-.prova{
-    
-}
-
 h3.triangolo{
     font-size: 240%;
-    color: #70747b;
-    padding-bottom: 1%;
-
+    color: #434750;
+    padding-bottom: 0.5%;
+    margin-top: 2%;
 }
-
 .triangolo::before{
     content: '\23F7';
 }
-.spunta-verde{
-    color: #70747b;
-    font-size: 200%;
-    line-height: 220%;
-}
-
-.spunta-verde::before{
-    content: '\2705';
-}
-
 .riquadro{
     background-color: #47adf1;
     color: white;
@@ -100,37 +76,27 @@ h3.triangolo{
     padding: 0.5% 1% 1% 1%;
     border-radius: 25px; 
 }
-
 section img{
     vertical-align: middle;
 }
-
 .text{
-    color: #70747b;
+    color: #6c7077;
     font-size: 200%;
     line-height: 220%;
     padding-left: 1%;
-
 }
-
 #purple{
-    background-color: purple;
+    background-color: #9c72e4;
 }
-
 #green{
-    background-color: green;
+    background-color: #64c0a9;
 }
-
 #orange{
-    background-color: orange;
+    background-color: #f29e33;
 }
-
 #pink{
-    background-color: pink;
+    background-color: #d863a1;
 }
-
 #pea-green{
-    background-color: greenyellow;
+    background-color: #b0c926;
 }
-
-
