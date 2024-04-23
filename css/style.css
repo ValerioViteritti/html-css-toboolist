@@ -23,14 +23,42 @@ header>img{
 header > h1{
     display: inline-block;
     transform: translate( 0%, -30%);
-    font-size: 80px;
+    font-size: 500%;
 
 }
 
 .conteiner{
-    width: 80%;
+    width: 70%;
     margin: 80px auto;
     background-color: white;
-    height: 1000px;
+    height: 1025px;
 
+}
+
+nav{
+    height: 8%;
+    border-bottom: 3px solid #5fc1f2;
+}
+
+.pulsante-blu{
+    background-color: #47adf1;
+    color: white;
+    height: 60%;
+    width: 9%;
+    border-radius: 13%;
+    margin: 1.5% 0 0 6%;
+    font-size: 130%;
+    border-color: #47adf1;
+
+}
+
+.pulsante-chiaro{
+    background-color: white;
+    color: #dee1e4;
+    height: 60%;
+    width: 11%;
+    border-radius: 13%;
+    margin: 1.5% 0 0 0.3%;
+    font-size: 130%;
+    border-color: #dee1e4;
 }
